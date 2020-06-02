@@ -9,6 +9,14 @@
  */
 module.exports = function(req, res, next) {
 
+  // var appid = req.param('appid');
+  // //TODO appid check
+  // if(!appid){
+  //   return res.redirect('/404');
+  // }else{
+  //   console.log(appid);
+  // }
+
   // User is allowed, proceed to the next policy, 
   // or if this is the last policy, the controller
   if (req.session.authenticated) {
