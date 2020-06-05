@@ -36,6 +36,9 @@
 
 ```
 > npm install sails -g
+
+# 目前默认的版本为1.0.x，安装后会有问题，使用指定0.11.5能解决该问题。
+> npm install -g sails@^0.11.5
 ```
 
 启动：`sails lift`，生产环境加上 `--prod` 参数。
