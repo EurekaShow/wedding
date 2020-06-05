@@ -6,7 +6,7 @@
 
   $(function() {
     $('#fullpage').fullpage({
-      anchors:['gallery', 'theme', 'cheer', 'lottery'],
+      anchors:['gallery', 'theme', 'cheer', 'lottery','video'],
       verticalCentered: false,
       afterLoad: function(anchor, index) {
         clearInterval(galleryInterval);
